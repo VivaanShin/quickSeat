@@ -1,12 +1,140 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>
+<div class="card-body">
+  <div class="table-responsive">
+    <table class="table" id="dataTable-ex" width="100%" cellspacing="0">
+      <thead>
+        <tr>
+          <th>HP</th>
+          <th>이름</th>
+          <th>마일리지</th>
+          <th>학부모 연락처</th>
+          <th>등록일</th>
+          <th>광고문자 거부</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01042790706</td>
+          <td>왕위링</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.25</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01035001356</td>
+          <td>기서</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.25</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01087540502</td>
+          <td>기서</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.25</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01083213772</td>
+          <td>정은현</td>
+          <td>0</td>
+          <td>01033662371</td>
+          <td>2020.08.25</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01051094539</td>
+          <td>서상혁</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.25</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01085072840</td>
+          <td>장민영</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.24</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01093961457</td>
+          <td>유진</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.24</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01048733046</td>
+          <td>김동욱</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.24</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01086044734</td>
+          <td>노푸른</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.24</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01043994078</td>
+          <td>박지혜</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.24</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01027345209</td>
+          <td>유승연</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.24</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01027503894</td>
+          <td>김현주</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.24</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01053747499</td>
+          <td>박지윤</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.24</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01021834297</td>
+          <td>남리엘</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.24</td>
+          <td>수신동의</td>
+        </tr>
+        <tr>
+          <td>01071274626</td>
+          <td>홍규형</td>
+          <td>0</td>
+          <td></td>
+          <td>2020.08.24</td>
+          <td>수신동의</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
