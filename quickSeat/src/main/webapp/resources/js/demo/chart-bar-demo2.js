@@ -28,17 +28,17 @@ function number_format(number, decimals, dec_point, thousands_sep) {
 }
 
 // Bar Chart Example
-var ctx = document.getElementById("mydayChart");
+var ctx = document.getElementById("myBarChart");
 var myBarChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["10/1", "10/2", "10/3", "10/4", "10/5", "10/6", "10/7", "10/8", "10/9", "10/10", "10/11", "10/12"],
+    labels: ["January", "February", "March", "April", "May", "June"],
     datasets: [{
       label: "Revenue",
       backgroundColor: "#4e73df",
       hoverBackgroundColor: "#2e59d9",
       borderColor: "#4e73df",
-      data: [125, 225, 325, 420, 525, 330, 524, 325, 225, 553, 425, 120],
+      data: [4215, 5312, 6251, 7841, 9821, 14984],
     }],
   },
   options: {
@@ -54,26 +54,26 @@ var myBarChart = new Chart(ctx, {
     scales: {
       xAxes: [{
         time: {
-          unit: 'date'
+          unit: 'month'
         },
         gridLines: {
           display: false,
-          drawBorder: true
+          drawBorder: false
         },
         ticks: {
-          maxTicksLimit: 12
+          maxTicksLimit: 6
         },
-        maxBarThickness: 40,
+        maxBarThickness: 25,
       }],
       yAxes: [{
         ticks: {
           min: 0,
-          max: 600,
+          max: 15000,
           maxTicksLimit: 5,
           padding: 10,
           // Include a dollar sign in the ticks
           callback: function(value, index, values) {
-            return number_format(value) + '명';
+            return '$' + number_format(value);
           }
         },
         gridLines: {
