@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-pageEncoding="UTF-8" %>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="kor">
 
@@ -319,7 +319,7 @@ pageEncoding="UTF-8" %>
                     <h6 class="m-0 font-weight-bold text-primary">공지 사항</h6>
                   </div>
                   <div class="card-body">
-                    <%-- <%@ include file="./table_data/noticeindex-t" %> --%>
+                    <%@ include file="./table_data/noticeindex-t.jsp" %>
                   </div>
                 </div>
               </div>
@@ -332,7 +332,7 @@ pageEncoding="UTF-8" %>
                     <h6 class="m-0 font-weight-bold text-primary">결제 내역</h6>
                   </div>
                   <div class="card-body">
-                   <%--  <% include ./table_data/userpaylogindex-t %> --%>
+                    <%@ include file="./table_data/userpaylogindex-t.jsp" %>
                   </div>
                 </div>
               </div>
@@ -465,7 +465,7 @@ pageEncoding="UTF-8" %>
           <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.html">Logout</a>
+            <a class="btn btn-primary" href="login.jsp">Logout</a>
           </div>
         </div>
       </div>
@@ -482,7 +482,7 @@ pageEncoding="UTF-8" %>
     <script src="../resources/js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
-    <script src="../resources/vendor/chart/js/Chart.min.js"></script>
+    <script src="../resources/vendor/chart.js/Chart.min.js"></script>
 
     <!-- Page level custom scripts -->
     <script src="../resources/js/demo/chart-area-demo.js"></script>

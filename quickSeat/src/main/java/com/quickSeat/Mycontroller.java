@@ -16,7 +16,7 @@ import com.quickSeat.dao.ISimpleBbsDao;
 public class Mycontroller {
 
 	
-	@Autowired
+	@Autowired 
 	ISimpleBbsDao dao;
 	
 	@RequestMapping("/")
@@ -34,7 +34,7 @@ public class Mycontroller {
 	*/
 	
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
-	public ModelAndView MAin() {
+	public ModelAndView Main() {
 		ModelAndView mav = new ModelAndView("/index");
 		
 		return mav;

@@ -47,6 +47,7 @@
             </button>
           </form>
 
+
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
 
@@ -109,18 +110,14 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">배치도 이용관리</h1>
+          <h1 class="h3 mb-2 text-gray-800">결제 현황</h1>
 
           <!-- DataTales Example -->
-          <div class="card shadow mb-4" >
+          <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">티구시포 좌석현황</h6>
+              <h6 class="m-0 font-weight-bold text-primary">결제 내역</h6>
             </div>
-            <div class="card-body">
-              <iframe src="/seatmanager" frameborder="0" width="100%" height="600px">
-                <p>현재 사용 중인 브라우저는 iframe 요소를 지원하지 않습니다!</p>
-              </iframe>
-            </div>
+            <%@ include file="./table_data/userpaylog-t.jsp" %>
           </div>
 
         </div>

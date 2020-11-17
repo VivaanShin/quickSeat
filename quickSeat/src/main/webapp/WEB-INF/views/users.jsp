@@ -12,7 +12,6 @@
   <meta name="author" content="">
 
   <title>티구시포 - Admin</title>
-
   <!-- Custom fonts for this template -->
   <link href="../resources/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -107,20 +106,17 @@
 
         <!-- Begin Page Content -->
         <div class="container-fluid">
-
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">배치도 이용관리</h1>
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">회원관리</h1>
+          </div>
 
           <!-- DataTales Example -->
-          <div class="card shadow mb-4" >
+          <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">티구시포 좌석현황</h6>
+              <h6 class="m-0 font-weight-bold text-primary">회원정보관리</h6>
             </div>
-            <div class="card-body">
-              <iframe src="/seatmanager" frameborder="0" width="100%" height="600px">
-                <p>현재 사용 중인 브라우저는 iframe 요소를 지원하지 않습니다!</p>
-              </iframe>
-            </div>
+            <%@ include file="./table_data/userlog-t.jsp" %>
           </div>
 
         </div>
@@ -168,7 +164,7 @@
       </div>
     </div>
   </div>
-
+  </script>
   <!-- Bootstrap core JavaScript-->
   <script src="../resources/vendor/jquery/jquery.min.js"></script>
   <script src="../resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -182,6 +178,19 @@
   <!-- Page level plugins -->
   <script src="../resources/vendor/datatables/jquery.dataTables.min.js"></script>
   <script src="../resources/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+  <!-- DataTable for demo -->
+  <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/buttons/1.5.1/css/buttons.dataTables.min.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
+  <!-- END DataTable for demo -->
 
   <!-- Page level custom scripts -->
   <script src="../resources/js/demo/datatables-demo.js"></script>
