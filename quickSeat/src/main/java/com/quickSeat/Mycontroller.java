@@ -19,9 +19,15 @@ public class Mycontroller {
 	@Autowired 
 	ISimpleBbsDao dao;
 	
-	@RequestMapping("/")
-	public @ResponseBody String root() throws Exception{
-		return "JdbcTemplate 사용하기";
+//	@RequestMapping("/")
+//	public @ResponseBody String root() throws Exception{
+//		return "JdbcTemplate 사용하기";
+//	}
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public ModelAndView Main() {
+		ModelAndView mav = new ModelAndView("/index");
+
+		return mav;
 	}
 	
 	/*
@@ -33,12 +39,12 @@ public class Mycontroller {
 	}
 	*/
 	
-	@RequestMapping(value = "/index", method = RequestMethod.GET)
-	public ModelAndView Main() {
-		ModelAndView mav = new ModelAndView("/index");
-		
-		return mav;
-	}
+//	@RequestMapping(value = "/index", method = RequestMethod.GET)
+//	public ModelAndView Main() {
+//		ModelAndView mav = new ModelAndView("/index");
+//
+//		return mav;
+//	}
 	
 	@RequestMapping("/list")
 	public String userlistpage(Model model) {

@@ -29,7 +29,7 @@
   <!-- Page Wrapper -->
   <div id="wrapper">
     <!-- End of Sidebar -->
-    <%@ include file="./part/admin-nav.jsp" %>
+    <%@ include file="part/admin-nav.jsp" %>
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
 

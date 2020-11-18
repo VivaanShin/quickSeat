@@ -28,7 +28,7 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <%@ include file="./part/admin-nav.jsp" %>
+    <%@ include file="part/admin-nav.jsp" %>
     <!-- End of Sidebar -->
 
     <!-- Content Wrapper -->
